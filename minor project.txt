@@ -1,0 +1,33 @@
+we will be creating an analytical dashboard using a training model, an analytical dash board
+An analytics dashboard is an interactive graphical user interface that allows you to display, track, and analyze key performance indicators (KPIs) and metrics. Modern dashboards can combine real-time data from multiple sources and provide AI-assisted data preparation, chart creation, and analysis. 
+ Model training in machine language is the process of feeding an ML algorithm with data to help identify and learn good values for all attributes involved. There are several types of machine learning models. 
+
+The dashboard will created using Python libraries 
+1) DJANGO:-  Django is a high-level Python web framework that enables rapid development of secure and maintainable websites.
+provides a powerful form library that handles rendering forms as HTML, validating user-submitted data, and converting that data to native Python types. 
+
+2)FLASK:- This means Flask provides you with tools, libraries and technologies that allow you to build a web application. This web application can be some web pages, a blog, a wiki, or go as big as a web-based calendar application or a commercial website.It provides developers with a quick and easy way to create RESTful APIs that can be used by other software applications.
+
+3)SCIKIT LEARN: tool used for predictive data analytics. built on Numpy Scipy and Matplotlib used for regression clustering.
+
+CREATION OF MODEL USING ML 
+
+1) INSTALLING LIBRARIES (NUMPY PANDAS SCIKIT LERAN ETC)
+
+2)LOADING THE DATA SET ( USING load_iris() )
+
+3)PRE PREPROCESSING OF DATA 
+splitting the data into testing set and training set function used train_test_split()
+taken from scikit learn library 
+
+4) TRAINING THE MODEL : CLASSIFICATION OF TASK WHAT TO PERFORM SUCH AS LOGISTIC REGRESSING OR CLUSTERING 
+
+5)EVALUTING THE MODEL : CHECK THE PERFORMCE USING TESTING SET CAN BE DONE USING score()
+
+# MODEL LOADING 
+ IT  will be done using PICKLE opreation it is used serialize the data and save in a serialized manner .
+
+
+
+
+   
