@@ -4,6 +4,14 @@ import numpy as np
 import os
 import shutil
 
+# Initialize the Flask app
+app = Flask(__name__) 
+
+# Load the trained ML model
+model_path = os.path.join(os.path.dirname(__file__), "water_potability_model.pkl")
+with open(model_path, 'rb') as file:
+    model = pickle.load(file)
+
 @app.route('/')
 def home():
     return render_template('index.html')
